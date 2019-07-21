@@ -2,6 +2,7 @@
 
 #######################################
 # Bash script to install an AMP stack and PHPMyAdmin plus tweaks. For Debian based systems.
+# Execute this as root
 # In case of any errors (e.g. MySQL) just re-run the script. Nothing will be re-installed except for the packages with errors.
 #######################################
 
@@ -16,8 +17,6 @@ Yellow='\033[0;33m'       # Yellow
 Purple='\033[0;35m'       # Purple
 Cyan='\033[0;36m'         # Cyan
 
-
-su
 
 # Update packages and Upgrade system
 echo -e "$Cyan \n Updating System.. $Color_Off"
